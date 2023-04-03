@@ -10,7 +10,7 @@ nav{
     display: flex;
     width: max;
     margin: auto;
-    padding: 30px 50px 30px 50px;
+    padding: 10px 50px 10px 50px;
     background-color: white;
     flex-direction: row-reverse;
 }
@@ -69,6 +69,7 @@ nav a:hover{
     text-decoration: none;
     color: black;
     border-radius: 15px;
+	box-shadow: 0 15px 35px rgb(213, 206, 163);
 }
 
 .info a:hover{
@@ -83,22 +84,26 @@ nav a:hover{
     margin-top: 50px;
     margin-right: 100px;
     margin-bottom: 30px;
+    transition: transform 0.5s ease-in-out;
 }
 
+.profil img:hover{
+    transform: translateY(-20px);
+}
 .inner{
     padding-top: 20px;
 }
 
 /* begin :: skill style */
 
-.subTitle{
+.sub-title{
     text-align: center;
     color: black;
     padding: 1rem;
     position: relative;
 }
 
-/* .subTitle:after{
+.sub-title:after{
     content : '';
     position: absolute;
     bottom: 0;
@@ -106,8 +111,8 @@ nav a:hover{
     transform: translateX(-50%);
     height: 4px;
     width: 100px;
-    background-color: beige;
-} */
+    background-color: rgb(20, 108, 148);
+}
 
 .container{
     display: grid;
@@ -198,6 +203,44 @@ nav a:hover{
     border-radius: 10px;
 }
 
-/* end :: skill style*/
+/* end:skill style*/
+
+/* begin:about style */
+.header2{
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url('image/18.jpg');
+    background-size: cover;
+    background-position: center center; */
+}
+.profil2 img{
+    width: 250px;
+    margin: auto;
+    padding: 50px 0 30px 0;
+}
+.about-me{
+    margin: auto;
+}
+.about-me h2{
+    font-size: 25px;
+}
+.about-me h1{
+    font-size: 50px;
+    color: rgb(20, 108, 148);
+}
+
+.about-me p{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 0 200px;
+    margin: 20px;
+    font-weight: normal;
+}
+
+/* end:about style */
   
 
