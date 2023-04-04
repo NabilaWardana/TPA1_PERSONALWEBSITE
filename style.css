@@ -12,7 +12,6 @@ nav{
     margin: auto;
     padding: 10px 50px 10px 50px;
     background-color: white;
-    flex-direction: row-reverse;
 }
 
 nav a{
@@ -92,6 +91,37 @@ nav a:hover{
 }
 .inner{
     padding-top: 20px;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 30px;
+    padding: 25px 80px 30px;
+    font-size: 15px;
+}
+
+.skill-icon1{
+    height: 30px;
+    border-radius: 5px;
+}
+.skill-box1{
+    margin: auto;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+}
+
+.skill-box1:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.skill-title1{
+    margin-bottom: 15px;
 }
 
 /* begin :: skill style */
@@ -243,4 +273,301 @@ nav a:hover{
 
 /* end:about style */
   
+/* begin:edu style */
+.edu-bg{
+    background-color: beige;
+}
+.edu-sub h2{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(20, 108, 148);
+}
+.edu-sec{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 50px;
+    padding: 25px 80px 80px;
+    font-size: 15px;
+}
 
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-img{
+    margin: auto;
+    height: 200px;
+}
+
+.edu-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+.edu-title h4{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.edu-sec2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 50px;
+    padding: 25px 80px 80px;
+    font-size: 15px;
+}
+
+/* end:edu style */
+
+.inner h2{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(20, 108, 148);
+}
+.container3{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 30px;
+    padding: 25px 80px 80px;
+    font-size: 15px;
+
+}
+
+.org-icon{
+    height: 350px;
+    border-radius: 5px;
+}
+.org-box{
+    background-color: beige;
+    width: 290px;
+    height: 605px;
+    border-radius: 20px;
+    padding: 20px;
+	box-shadow: 0 15px 35px rgb(213, 206, 163);
+}
+
+.org-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.org-title{
+    margin-bottom: 15px;
+}
+
+.org-title h3{
+    margin-top: 30px;
+}
+.org-title h4{
+    font-weight: normal;
+}
+
+/* begin:projek style */
+.projek{
+    background-color: beige;
+}
+.row{
+    padding: 50px 50px;
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.row2{
+    background-color: white;
+}
+.row4{
+    background-color: white;
+}
+.col{
+    flex-basis: 50%;
+}
+
+.col1{
+    padding-right: 100px;
+}
+
+h1{
+    color: black;
+    font-size: 25px;
+}
+
+p{
+    color: black;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.prj-card{
+    width: 250px;
+    height: 177.78px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.prj-card1-1{
+    background-image: url(image/prj1-1.png);
+}
+.prj-card1-2{
+    background-image: url(image/prj1-2.png);
+}
+.prj-card1-3{
+    background-image: url(image/prj1-3.png);
+}
+.prj-card1-4{
+    background-image: url(image/prj1-4.png);
+}
+.prj-card2-1{
+    background-image: url(image/prj2-1.png);
+}
+.prj-card2-2{
+    background-image: url(image/prj2-2.png);
+}
+.prj-card2-3{
+    background-image: url(image/prj2-3.png);
+}
+.prj-card2-4{
+    background-image: url(image/prj2-4.png);
+}
+.prj-card3{
+    width: 150px;
+    height: 325px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.prj-card3-2{
+    background-image: url(image/prj3-2.png);
+}
+.prj-card3-3{
+    background-image: url(image/prj3-3.png);
+}
+.prj-card3-4{
+    background-image: url(image/prj3-4.png);
+}
+.prj-card4-1{
+    background-image: url(image/prj4-1.png);
+}
+.prj-card4-2{
+    background-image: url(image/prj4-2.png);
+}
+.prj-card4-3{
+    background-image: url(image/prj4-3.png);
+}
+/* end:projek style */
+
+.more-button a{
+    float: right;
+    margin-right: 50px;
+    background-color: rgb(20, 108, 148);
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+	box-shadow: 0 15px 35px gray;
+}
+
+.more-button a:hover{
+    color: black;
+    background-color: white;
+}
+
+.contact-info{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    flex-direction: column;
+}
+.contact-content{
+    display:flex ;
+}
+.contact-card{
+    background: white;
+    border-radius: 10px;
+    padding: 0 40px;
+    margin: 30px 40px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+	box-shadow: 0 15px 35px gray;
+}
+.contact-icon{
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 30px;
+    padding: 25px 80px 80px;
+    font-size: 15px;
+
+}
+
+.blog-icon{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog-box{
+    margin: auto;
+    background-color: beige;
+    width: 360px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+	box-shadow: 0 15px 35px rgb(213, 206, 163);
+}
+
+.blog-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.blog-title{
+    margin-bottom: 15px;
+}
+p{
+    margin-bottom: 10px;
+}
+.blog-box a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.blog-box a:hover{
+    color: rgb(20, 108, 148);
+}
